@@ -1,0 +1,483 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+
+
+body {
+	padding: 70px;
+
+}
+
+
+
+/* ***  NAVBar Style *** */
+
+
+/* ***  NAVBar Style ENDS *** */
+
+
+
+/**** Home page ****** */
+.one {
+	background-color:  #003366;
+}
+
+.home_greeting {
+	font-family: Verdana, Helvetica, Tahoma, Garamond, serif;
+	font-size: 1.5em;
+	color: #ff9933;
+	font-weight: bold;
+}
+
+strong {
+	color: #ff9933;
+}
+
+.fedup {
+	text-align: center;
+	font-famnily: Verdana, Helvetica, Tahoma, Garamond, sans-serif;
+	font-family: 20px;
+	color: #ffffff ;
+}
+
+.tips {
+	font-family: Verdana, Helvetica, Verdana, sans-serif;
+	font-size: 1.3em;
+	color: #808080;
+
+}
+
+.winners {
+	text-align: center;
+	font-family: Verdana, Helvetica, Garamond, sans-serif;
+	font-size: 1.3em;
+	color: #808080;
+	}
+
+	.button {
+	  border-radius: 100%;
+	  border: 2px solid none;
+	  text-align:center;
+	  height: 120px;
+	  width: 120px;
+	  background-color: #ff9933;
+	  padding-top: 45px;
+	  margin: auto;
+ }
+
+ .button:hover {
+     background-color:  #00cc99;
+ }
+
+ .button a   {
+   text-decoration: none;
+   color:#fff;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+/**** Home page ****** */
+
+
+
+/**** About page ****** */
+
+.greeting {
+	font-family: Verdana, Helvetica, Tahoma, Garamond, serif;
+	font-size: 2em;
+	color: #ff9933;
+	text-align: center;
+	font-weight: bold;
+}
+
+.odd {
+	background-color: #ff9933;
+	color: #003366;
+	
+}
+
+
+
+.about {
+	font-family: Verdana, Tahoma, Helvetica, san-serif;
+	font-size: 20px;
+	text-align: center;
+	color:  #808080;
+
+}
+
+
+
+.creator {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #ff9933;
+	font-weight: bold;
+	text-align: center;
+}
+
+.my_creator {
+	border-radius: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address, .be_rich {
+	font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 2em;
+	color: #ff9933;
+	font-weight: bold;
+}
+
+
+
+.fa-cloud, .fa-map-marker, .fa-volume-control-phone, .fa-envelope,  .fa-share-alt, .fa-arrow-circle-o-left, .fa-users, .fa-facebook-square, .fa-twitter-square, .fa-instagram {
+	color: #ff9933;
+	
+}
+
+.i_live {
+	font-family: Garamond, Tahoma, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #808080;
+}
+
+.email, .location {
+	font-family: Garamond, Tahoma, sans-serif;
+	font-size: 1.5em;
+	color: #808080;
+}
+
+.email:hover {
+  color: #003366;
+	
+}
+
+
+.site_address address {
+    text-align: center;
+}
+
+.site_address a {
+	text-decoration: none;
+	color: #808080;
+}
+
+iframe {
+    border-radius: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+	
+
+/**** About page ****** */
+
+
+
+
+
+/* ***** Games page styles ***** */
+
+.pick_games, .help_forum {
+	font-family: Garamond, Verdana, sans-serif;
+	color: #ff9933;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+
+/* **** POWERBALL **** */
+.powerball {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(154, 56%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+	
+}
+
+.powerball a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.powerball:hover {
+	background-color:  #ff9933;
+}
+
+.numbers {
+    font-family: Verdana, Garamond, Helvetica, sans-serif;
+    font-size: 2em;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+/* **** FLORIDAlOTTO **** */
+.florida_lotto {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(199, 96%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.florida_lotto a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.florida_lotto:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** CASH4LIFE **** */
+.cash_for_life {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(0, 0%, 60%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+
+.cash_for_life a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.cash_for_life:hover {
+	background-color:  #ff9933;
+}
+
+
+
+/* **** 	MEGAMILLION **** */
+.mega_millions {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(15, 60%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+
+.mega_millions a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.mega_millions:hover {
+	background-color:  #ff9933;
+}
+
+/* **** LUCKYMILLION**** */
+
+.lucky_money {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(330, 100%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.lucky_money a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.lucky_money:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** FANTAZY5 **** */
+
+.fantazy_five {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(225, 100%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.fantazy_five a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.fantazy_five:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** PICK5 **** */
+
+.pick_five {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(60, 70%, 70%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.pick_five a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.pick_five:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** PICK4 **** */
+.pick_four {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(30, 65%, 75%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.pick_four a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.pick_four:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** PICK3**** */
+
+.pick_three {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(270, 45%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.pick_three a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+.pick_three:hover {
+	background-color:  #ff9933;
+}
+
+
+/* **** PICK2**** */
+.pick_two {
+	border-radius: 100%;
+	height: 150px;
+	width: 140px;
+	background-color: hsl(0, 100%, 80%);
+	margin: auto;
+	padding: 60px 0  20px;
+	text-align: center;
+}
+
+.pick_two a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family: Garamond, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+.pick_two:hover {
+	background-color:  #ff9933;
+}
+
+
+/* Games styles end  */
+
+
+/* Layouts styles */
+.go_back a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+.lotto_site a {
+	text-decoration: none;
+	font-family: Verdana, Garamond, Helevetica, sans-serif;
+    color: #ff9933;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+/* Layouts styles */
+
+
+.navbar-text p {
+    font-family: Verdana, Garamond, Helvetica, sans-serif;
+    font-size: 20px;
+	color: #ff9933;
+}
+
+
+
+

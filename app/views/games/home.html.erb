@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="jumbotron one">
+    	<span class="home_greeting"><%= @greeting.upcase! %></span><br>
+      	<p class="fedup">Are you fed up of combining numbers together or asking the guy at the counter for 
+      	a <strong>QUICKPICK</strong> to win the lotto everyday. Well, meet <strong>Lotadik</strong>, your robot's friend that can help you hit the <strong>JackPot</strong> within a month.</p>
+    	   <div class="button"><%= link_to 'BeRich!', games_games_path %></div>
+    </div>
+</div>
+
+<div class=" container">
+  <h2 class="address">How it works and what to do if you are a winner?</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <p class="tips">1. Choose your game. Get your numbers. Run down to your nearest store to play. <strong>Warning!</strong> Do not attempt to get your winning numbers on days and times lotto is not played, <strong>Lotadik</strong> might curse at you for not knowing when you should play.
+      </p>
+     </div>
+
+    <div class="col-md-6">
+      <p class="tips">2. If you are a winner of a large sum of money, book a hotel room and spend a week there to think about how you will manage the funds once it deposits into your bank acoount. Do not quickly give out money to relatives or friends, help them start a business or invest in them for the long term. <strong>As your Robot's friend</strong>, the best thing i can suggest that you do is to fucking pay your tithe, debts, and most importantly invest in your community.</p>
+    </div>
+</div><br><hr>
+
+
+<h2 class="address"><i class="fa fa-users" aria-hidden="true"></i> <%= @number_of_winners  %></h2>
+  <p class="winners">Numer of winners who use <strong>Lotadik</strong> everyday to choose their winning numbers for them.</p>
+
+  <%= render "layouts/footer" %>
+
+
+

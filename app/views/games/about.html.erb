@@ -1,0 +1,31 @@
+<div class="container">
+	<h2 class="greeting"><%= @greeting.upcase! %></h2>
+	<p class="about">I am a small bot that collect previous winning numbers and use my complex algorithm to generate real winning numbers for people like you to beat the odd of hitting the jackpot. The odd of hitting the Jackpot is <span class="odd">1 in 14,000,000</span>, whereas I increase your chance to win to <span class="odd">10 in 14,000,000</span>. Would you let the guy at the counter picks your number for you or <strong>Me, your super intelligent robot's friend</strong>?</p>
+ </div>
+</div><br>
+
+<h2 class="creator"> Meet my creator</h2>
+
+<div>
+   <%= image_tag("creator", alt: "My creator", size: "200x200", class: "my_creator") %>
+   
+</div><br>
+
+<h3 class="address">I am located in the heart of North Miami Beach</h3>
+
+<div class="site_address">
+    <address>
+       <h2 class="i_live">I live in the <span><i class="fa fa-cloud fa-2x" aria-hidden="true"></i></span></h2>
+       	<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><span class="location">  2014 NE 164th St <br>
+       	 North Miami Beach, Fl 33162</span><br>
+       	<i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i><span><a href="tel:786-609-0822" class="email"> 786-609-0822</a></span><br>
+       	<i class="fa fa-envelope fa-2x" aria-hidden="true"></i> <span><%= mail_to("remedavid@yahoo.com", "  Say hi to me!", class: "email") %></span>
+    </address>
+</div>
+
+   <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.25231812998!2d-80.16160404951823!3d25.92693870798859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9adbbd65dd4f3%3A0x649d4a722bf75f9f!2s2014+NE+164th+St%2C+North+Miami+Beach%2C+FL+33162!5e0!3m2!1sen!2sus!4v1487708255263" width="250" height="260"  style="border:0" allowfullscreen></iframe>
+
+
+<%= render 'layouts/footer' %>
+
+  
