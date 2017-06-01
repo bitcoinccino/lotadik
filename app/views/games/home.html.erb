@@ -3,10 +3,11 @@
     	<span class="home_greeting"><%= @greeting.upcase! %></span><br>
       	<p class="fedup">Are you fed up of combining numbers together or asking the guy at the counter for 
       	a <strong>QUICKPICK</strong> to win the lotto everyday. Well, meet <strong>Lotadik</strong>, your robot's friend that can help you hit the <strong>JackPot</strong> within a month.</p>
-         <audio id="sound"></audio>
-    	   <button class="button" onclick="sound"><%= link_to 'BeRich!', games_games_path %></button>
+        
+        <%= audio_tag "rich_biatch.mp3", class: "audio-play" %>
+    	   <div class="button"><%= link_to 'BeRich!', games_games_path %>
     	   	
-    	  
+    	   </div>
     </div>
 </div>
 
