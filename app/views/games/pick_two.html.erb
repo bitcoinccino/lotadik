@@ -2,9 +2,12 @@
 	<div class="jumbotron one">
 	  <h3 class="be_rich">May you be fucking rich forever, <%= $site_name %>!</h3><br>
 	  <p class="numbers">Here's your winning <strong>PICK2</strong> numbers for <%= $the_date.to_formatted_s(:long_ordinal) %></p>
-	  <h3 class="be_rich"><span><%= @pick_two %></span></h3><hr>
+	  <h3 class="be_rich"><span><%= @two %></span></h3><hr>
 	   <%= render "layouts/lotto_site" %>
     </div>
 </div>
+
+<h2>Number of PICK2 generated today: <%= @number_of_pick_two %></h2>
+
 
 <%= render "layouts/footer" %>

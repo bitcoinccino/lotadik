@@ -312,7 +312,7 @@ iframe {
 .lucky_money a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.6em;
 	font-family: Garamond, Verdana, Helvetica, sans-serif;
 	font-weight: bold;
 }
@@ -471,13 +471,19 @@ iframe {
 
 /* Layouts styles */
 
-
-.navbar-text p {
-    font-family: Verdana, Garamond, Helvetica, sans-serif;
-    font-size: 20px;
-	color: #ff9933;
+.pull-left p {
+	color:  #ff9933;
+	font-size: 18px;
+	font-family: Helvetica, Garamond, Verdana, sans-serif;
 }
 
 
 
 
+
+/*** DONATE PAGE ***/
+.well {
+   padding: 100px;
+   }
+
+ 

@@ -4,6 +4,10 @@ $the_date = Date.today
   
 $site_name = "Lotadik!"
 
+
+
+
+
 def home
   	# Greet users morning, evening, night
   @number_of_winners = "1,000,000"
@@ -38,67 +42,55 @@ end
 def help
 end
 
+
   # Big money Jackpot
 def power_ball
-  one_to_69 = (1..69).to_a
-  one_to_26 = (1..26).to_a
-  @five_numbers = one_to_69.shuffle.sample(5).sort!.join(" - ")
-  @pwr_ball = one_to_26.shuffle.sample(1).join(" ")
+  @five_numbers = (1..69).to_a.reverse!.shuffle!.sample(5).sort!.join("-")
+  @power_ball = (1..26).to_a.reverse!.shuffle!.sample(1).join(" ")
+  
 end
 
 def mega_millions
-  one_to_75 = (1..75).to_a
-  one_to_15 = (1..15).to_a
-  @one_to_75 = one_to_75.shuffle.sample(5).sort!.join(" - ")
-  @one_to_15 = one_to_15.shuffle.sample(1).join(" ")
+  @one_to_75 = (1..75).to_a.reverse!.shuffle!.sample(5).sort!.join(" - ")
+  @one_to_15 = (1..15).to_a.reverse!.shuffle!.sample(1).join(" ")
 end
 
+
 def florida_lotto
-  one_to_53 = (1..53).to_a
-  @lotto_six = one_to_53.shuffle.sample(6).sort!.join(" - ")
+  @lotto_six = (1..53).to_a.reverse!.shuffle.sample(6).sort!.join("-")
 end
 
 def cash_for_life
-  one_to_sixty = (1..60).to_a
-  one_to_four = (1..4).to_a
-  @one_to_sixty = one_to_sixty.shuffle.sample(5).sort!.join(" - ")
-  @one_to_four = one_to_four.shuffle.sample(1).join(" ")
+  @one_to_sixty = (1..60).to_a.shuffle!.sample(5).sort!.join("-")
+  @one_to_four = (1..4).to_a.reverse!.shuffle!.sample(1).join(" ")
 end
 
 
 def lucky_money
-  one_to_47 = (1..47).to_a
-  one_to_17 = (1..17).to_a
-  @one_to_47 = one_to_47.shuffle.sample(4).sort!.join(" - ")
-  @one_to_17 = one_to_17.sample(1).join(" ")
+   @one_to_47 = (1..47).to_a.reverse!.shuffle!.sample(4).sort!.join("-")
+   @ball = (1..17).to_a.reverse!.shuffle!.sample(1).join(" ")
 end
 
 # Mini Money
 def fantazy_five
-  zero_to_36 = (1..36).to_a
-  @fantazy_five= zero_to_36.shuffle.sample(5).sort!.join(" - ")
+  @fanta_five = (1..36).to_a.reverse!.shuffle!.sample(5).sort!.join("-")
 end
 
+
 def pick_five
-  zero_to_9 = (0..9).to_a
-  @pick_five = zero_to_9.shuffle.sample(5).join(" - ")
+  @five= (0..9).to_a.reverse!.sample(5).shuffle!.join("-")
 end
 
 def pick_four
-  zero_to_9 = (0..9).to_a
-  @pick_four= zero_to_9.shuffle.sample(4).join(" ")
+  @four = (0..9).to_a.reverse!.sample(4).shuffle!.join(" ")
 end
 
 def pick_three
-  zero_to_9 = (0..9).to_a
-  @pick_three = zero_to_9.shuffle.sample(3).join(" ")
-  
+  @three = (0..9).to_a.reverse!.sample(3).shuffle!.join(" ")
 end
 
 def pick_two
-  zero_to_9 = (0..9).to_a
-  @pick_two = zero_to_9.shuffle.sample(2).join(" ")
-
+  @two= (0..9).to_a.reverse!.sample(2).shuffle!.join(" ")
 end
 
 
