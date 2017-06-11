@@ -90,7 +90,8 @@ def pick_three
 end
 
 def pick_two
-  @two= (0..9).to_a.reverse!.sample(2).shuffle!.join(" ")
+ @two= (0..9).to_a.reverse!.sample(2).shuffle!.join(" ")
+
 end
 
 
