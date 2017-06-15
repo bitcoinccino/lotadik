@@ -15,8 +15,6 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
-$(".button").on("click", function() {
-  $(".audio-play")[0].currentTime = 0;
-  return $(".audio-play")[0].play();
-});
+var sound = new Audio();
+sound.src = "rich_biatch.mp3";
 
