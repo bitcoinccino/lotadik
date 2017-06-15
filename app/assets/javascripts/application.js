@@ -18,6 +18,8 @@
 var richBiatch = new Audio();
 sound.richBiatch = "rich_biatch.mp3";
 
+function playDuck {
 var duffyDuck = new Audio();
-soundTwo.duffyDuck = "daffy_duck.mp3";
+sound.duffyDuck = "daffy_duck.mp3";
+}
 
