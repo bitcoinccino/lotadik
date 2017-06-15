@@ -15,6 +15,9 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
-var sound = new Audio();
-sound.src = "rich_biatch.mp3";
+var richBiatch = new Audio();
+sound.richBiatch = "rich_biatch.mp3";
+
+var duffyDuck = new Audio();
+soundTwo.duffyDuck = "daffy_duck.mp3";
 
