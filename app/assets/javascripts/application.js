@@ -17,6 +17,6 @@
 //= require_tree .
 
  var duffyDuck = new Audio();
- sound.duffyDuck = "daffy_duck.mp3";
+ sound.duffyDuck = "rich_biatch";
 
 
