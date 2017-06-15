@@ -16,7 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
- var duffyDuck = new Audio();
- sound.duffyDuck = "rich_biatch.mp3";
+ var duck = new Audio();
+ duck.src = "daffy_duck.mp3";
 
 
