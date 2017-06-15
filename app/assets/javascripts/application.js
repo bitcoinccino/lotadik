@@ -19,7 +19,7 @@ var richBiatch = new Audio();
 sound.richBiatch = "rich_biatch.mp3";
 
 function playDuck {
-var duffyDuck = new Audio();
-sound.duffyDuck = "daffy_duck.mp3";
+ var duffyDuck = new Audio();
+ sound.duffyDuck = "daffy_duck.mp3";
 }
 
